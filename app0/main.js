@@ -59,9 +59,6 @@ function get_indexobjs_from_verse(verse) {
  for (let i=0; i < indexdata.length; i++ ) {
   let obj = indexdata[i];
   ipage = obj.ipage;
-  if (true) {
-   console.log('dbg:',[i,ipage,verse[0], ipage == verse[0]]);
-  }
   if (ipage != verse[0]) {continue;}
   icur = i;
   break;
@@ -117,9 +114,9 @@ function get_verse_from_url() {
 
 function display_ipage_url() {
  let url_verse = get_verse_from_url();
- console.log('url_verse=',url_verse);
+ //console.log('url_verse=',url_verse);
  let indexobjs = get_indexobjs_from_verse(url_verse);
- console.log('indexobjs=',indexobjs);
+ //console.log('indexobjs=',indexobjs);
  display_ipage_html(indexobjs);
 }
 
