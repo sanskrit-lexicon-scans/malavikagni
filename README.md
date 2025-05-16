@@ -29,3 +29,16 @@ Provide access to pages based on (page, line-number within page)
  
 https://sanskrit-lexicon-scans.github.io/malavikagni/app2/?N,N
 
+## app3
+Provide access to pages based on (aṅka,verse), enumerated according to the scheme of the Monier-Williams Sanskrit-English Dictionary, 1899.
+
+* aṅka 1 verses 1-21, pdf verses 1-21
+* aṅka 2 verses 1-14, pdf verses 22-35
+* aṅka 3 verses 1-23, pdf verses 36-58
+* aṅka 4 verses 1-17, pdf verses 59-75
+* aṅka 5 verses 1-20, pdf verses 76-95
+
+
+<br/>https://sanskrit-lexicon-scans.github.io/malavikagni/app3/?N,N
+
+<br/>Example: https://sanskrit-lexicon-scans.github.io/malavikagni/app3/?4,2
